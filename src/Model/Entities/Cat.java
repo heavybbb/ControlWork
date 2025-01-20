@@ -26,4 +26,5 @@ public class Cat extends Pet {
                 && Objects.equals(getCommands(), cat.getCommands());
     }
 
+
 }

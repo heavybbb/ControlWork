@@ -12,6 +12,7 @@ public enum AnimalType {
     CAMEL ("Верблюд"),
     DONKEY ("Осёл");
 
+
     private String title;
 
     AnimalType(String title) {

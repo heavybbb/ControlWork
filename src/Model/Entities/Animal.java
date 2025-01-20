@@ -10,6 +10,7 @@ public abstract class Animal {
     String name;
 
     Date birthday;
+    
 
     List<String> commands;
 

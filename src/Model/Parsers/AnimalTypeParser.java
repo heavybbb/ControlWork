@@ -18,4 +18,6 @@ public class AnimalTypeParser {
             throw new AnimalTypeParseException("Некорректное значение вида животного",num);
         }
     }
+    
 }
+
