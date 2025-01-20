@@ -1,0 +1,45 @@
+    1  mkdir ~/testfolder
+    2  ls
+    3  cd ..
+    4  ls
+    5  cd ermolov/
+    6  remdir testfolder/
+    7  sudo su
+    8  ip -a
+    9  ip a
+   10  clear
+   11  echo -e "Собаки\nКошки\nХомяки" > Pets
+   12  echo -e "Лошади\nВерблюды\nОслЫ" > Pack_animals
+   13  ls
+   14  cat Pets Pack_animals > Human_Friends
+   15  ls
+   16  cat Human_Friends
+   17  rm Human_Friends 
+   18  rm Pack_animals 
+   19  rm Pets 
+   20  clear
+   21  echo -e "Собаки\nКошки\nХомяки" > Pets
+   22  cat Pets Pack_animals > Human_Friends
+   23  cat Human_Friends
+   24  mv Human_Friends Human_Friends_renamed
+   25  mkdir FriendsDirectory
+   26  mv "Human Friends" FriendsDirectory
+   27  mv "Human_Friends" FriendsDirectory
+   28  ls
+   29  mv Human_Friends_renamed FriendsDirectory/
+   30  sudo apt-get install wget
+   31  wget https://dev.mysql.com/get/mysql-apt-config_0.8.13-1_all.deb
+   32  sudo dpkg -i mysql-apt-config_0.8.13-1_all.deb
+   33  sudo apt-get update
+   34  sudo apt-get install mysql-server
+   35  sudo systemctl start mysql
+   36  sudo systemctl status mysql
+   37  sudo dpkg -i nginx_*.deb
+   38  wget http://nginx.org/packages/ubuntu/pool/nginx/n/nginx/nginx_1.24.0-1~focal_amd64.deb
+   39  sudo dpkg -i nginx_1.24.0-1~focal_amd64.deb
+   40  sudo dpkg -i nginx_1.24.0-1~jammy_amd64.deb
+   41  wget http://nginx.org/packages/ubuntu/pool/nginx/n/nginx/nginx_1.24.0-1~jammy_amd64.deb
+   42  sudo dpkg -i nginx_1.24.0-1~jammy_amd64.deb
+   43  sudo apt --fix-broken install
+   44  sudo dpkg -P nginx
+   45  history > Ermolov_Vadim_02.10.24_group_6381.txt
