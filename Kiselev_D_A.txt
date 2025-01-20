@@ -1,0 +1,17 @@
+    1  cat > Pets <<EOL
+Собаки
+Кошки
+Хомяки
+EOL
+    5  cat > "Pack animals" <<EOL
+Лошади
+Верблюды
+Ослы
+EOL
+
+    7  cat Pets "Pack animals" > animal
+    8  vi animal
+    9  mv animal HumanFriends.txt
+   16  mkdir animals
+   18  mv HumanFriends.txt animals
+   20  history > Kiselev_D_A.txt
